@@ -27,5 +27,5 @@ an on-orbit proximity operation (see figure 2)
   
  <figure align="center">
   <img src="https://github.com/user-attachments/files/29059240/ISS_CWH3D_1_.pdf" width="75%">
-  <figcaption><b>Figure 1:</b> Free space decomposition using hyperrectangles around a large spacecraft </figcaption>
+  <figcaption><b>Figure 2:</b> Free space decomposition using hyperrectangles around a large spacecraft </figcaption>
 </figure>
