@@ -29,3 +29,11 @@ an on-orbit proximity operation (see figure 2)
   <img src="https://github.com/user-attachments/files/29059240/ISS_CWH3D_1_.pdf" width="75%">
   <figcaption><b>Figure 2:</b> Free space decomposition using hyperrectangles around a large spacecraft </figcaption>
 </figure>
+
+
+
+uses the following toolboxes
+
+%Optimization problem are solved with quadprog using Yalmip %[https://yalmip.github.io/download/]
+% uses MPT3 for polytope ploting: https://www.mpt3.org/pmwiki.php/Main/Installation
+% Cora toolbox for some light operations on polytopes: https://tumcps.github.io/CORA/
