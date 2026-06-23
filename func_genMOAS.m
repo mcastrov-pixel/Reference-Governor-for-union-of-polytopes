@@ -18,7 +18,7 @@ Inx = eye(nx);
 
 % --- Constraints on steady state commands (strictly sterady state!!!), i.e., k = \infty
 A_Oinf = Ay*[D+C*((Inx-A)\B), 0*C];
-b_Oinf = by*(1-epsVal);
+b_Oinf = by - sign(by)*epsVal;
 % [A_Oinf, b_Oinf] = elimRedundant(A_Oinf, b_Oinf, toll);
 
 % --- Constraints on predicted state at time k=1,2,..,kfin
